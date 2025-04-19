@@ -1,13 +1,37 @@
-# Memulai Proyek dengan Create React App
+# 🚀 Frontend Developer Assessment – PT Nusantara Data Indonesia
 
-## Proyek ini dibuat menggunakan Create React App.
+Proyek ini adalah hasil pengerjaan **Tugas Pengujian Frontend** untuk seleksi posisi **Frontend Developer** di PT Nusantara Data Indonesia. Aplikasi dibangun menggunakan **React.js** dengan pendekatan modular, responsif, dan mengedepankan best practice dalam pengelolaan state serta integrasi API.
 
-Cara Menjalankan Proyek Install dependensi dengan perintah:
+---
 
-### `npm i`
+## ✨ Fitur Utama
 
-Jalankan aplikasi dengan perintah:
+- 🔐 Halaman **Login** responsif dengan validasi sederhana
+- 🔄 **Integrasi API** menggunakan `axios` dan `react-query`
+- 📊 **Visualisasi data JSON** menggunakan `Recharts`
+- 🌙 Styling menggunakan **Tailwind CSS**
+- 🔔 Notifikasi interaktif via `react-toastify`
+- 🍪 Manajemen autentikasi menggunakan **cookies**
+- ⚙️ Modular dan reusable components
 
-### `npm start`
+## 📦 Cara Menjalankan Proyek
 
-Buka http://localhost:3000 di browser untuk melihat aplikasi. Halaman akan otomatis dimuat ulang saat Anda melakukan perubahan. Anda juga dapat melihat kesalahan lint di konsol.
+### 1. Clone repository
+
+```bash
+git clone https://github.com/ahmdfauzzan/testND.git
+```
+
+### 2. Masuk ke direktori
+
+cd testND
+
+### 3. Install dependencies
+
+npm install
+
+### 4. Jalankan aplikasi
+
+npm start
+
+Aplikasi akan berjalan di http://localhost:3000.
