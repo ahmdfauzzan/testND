@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useLoginUser } from "../services/loginUser";
 import { IoEyeSharp } from "react-icons/io5"; // Import ikon untuk eye open
 import { FaEyeSlash, FaFacebookF } from "react-icons/fa"; // Import ikon untuk eye closed
@@ -47,7 +47,7 @@ export const Login = () => {
       setErrorMessage(error.response.data.message);
       setShowModal(true);
     }
-  }, [isSuccess, isError, data, error, dispatch]);
+  }, [isSuccess, isError, data, navigate, error, dispatch]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
